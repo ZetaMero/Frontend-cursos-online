@@ -1,0 +1,21 @@
+@import "../../../scss/index.scss";
+
+.basic-modal {
+  .modal-content {
+    border-radius: 25px;
+  }
+  .modal-header {
+    padding: 15px;
+    border: 0;
+    .modal-title {
+      margin: 0 auto;
+      .avatar{
+        width: 90px;
+        height: 90px;
+      }
+    }
+    .modal-body {
+      padding: 20px 40px 40px 40px;
+    }
+  }
+}
